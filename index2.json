@@ -1,0 +1,57 @@
+[
+    {
+        "img":"https://www.yoox.com/images/items/50/50288703MS_14_f.jpg?impolicy=crop&width=306&height=390",
+        "title": "CHOLE",
+        "cat": "Pendant",
+        "price":"US$ 44,00"
+
+    },
+    {
+        "img":"https://www.yoox.com/images/items/16/16157930OH_14_f.jpg?impolicy=crop&width=306&height=390",
+        "title": "MARNI",
+        "cat": "Coat",
+        "price":"US$ 934,00"
+    },
+    {
+        "img":"https://www.yoox.com/images/items/45/45698461RJ_14_f.jpg?impolicy=crop&width=306&height=390",
+        "title": "NANUSHKA",
+        "cat": "Handbag",
+        "price":"US$ 155,00"
+    },
+    {
+        "img":"https://www.yoox.com/images/items/16/16169848HN_14_f.jpg?impolicy=crop&width=306&height=390",
+        "title": "ISABEL MARANT ETOILE",
+        "cat": "Coats",
+        "price":"US$ 361,00"
+    },
+    {
+        "img":"https://www.yoox.com/images/items/17/17358702KX_14_f.jpg?impolicy=crop&width=306&height=390",
+        "title": "CHOLE",
+        "cat": "Boots",
+        "price":"US$ 883,00"
+    },
+    {
+        "img":"https://www.yoox.com/images/items/46/46864723JN_14_f.jpg?impolicy=crop&width=306&height=390",
+        "title": "ROCHAS",
+        "cat": "Hat",
+        "price":"US$ 223,00"
+    },
+    {
+        "img":"https://www.yoox.com/images/items/13/13859882NF_14_f.jpg?impolicy=crop&width=306&height=390",
+        "title": "VALENTINO",
+        "cat": "Mini skirt",
+        "price":"684,00"
+    },
+    {
+        "img":"https://www.yoox.com/images/items/12/12876582RD_14_f.jpg?impolicy=crop&width=306&height=390",
+        "title": "GANNI",
+        "cat": "Blouse",
+        "price":"US$ 114,00"
+    },
+    {
+        "img":"https://www.yoox.com/images/items/46/46851099LN_14_f.jpg?impolicy=crop&width=306&height=390",
+        "title": "ETRO",
+        "cat": "High-waist belt",
+        "price":"US$ 536,00"
+    }
+]

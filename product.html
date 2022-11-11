@@ -1,0 +1,735 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YOOX-PRODUCT PAGE</title>
+    <link rel="shortcut icon" href="C:\Users\Neha\Downloads\YOOX.png">
+</head>
+<style>
+    *{
+        padding: 0%;
+        margin: 0%;
+    }
+    #fixed{
+         position: sticky;
+          top: 0;
+          left: 0;
+          z-index: 10;
+        }
+      
+      #nav{
+          
+        border: 1px solid #EEEEEE;
+          height: 35px;
+          width: 100%;
+       background-color: white;
+         
+      }
+      #hov{
+          margin-right: 10px;
+       
+          padding-top: 5px;
+         
+      }
+      #hov>button{
+          background-color: white;
+          border: none;
+          text-decoration: underline;
+          font-size: 12px;
+        padding: 6px 6px;
+          
+      }
+      #hov>button:hover{
+          background-color: #EEEEEE;
+      }
+     #navs{
+      width: 100%;
+      background-color: white;
+      height: auto;
+     }
+      #nav>div>div{
+          background-color: white;
+          display: flex;
+          justify-content: space-between;
+         
+      }
+      #nav>div{
+          width: 50%;
+          display: flex;
+          justify-content: space-between;
+          background-color: white;
+          margin: auto;
+          
+      }
+      #nav2{
+          width: 50%;
+          display: flex;
+          justify-content: space-between;
+          background-color: white;
+          margin: auto;
+        
+          height: 60px;
+          padding-top:5px ;
+          padding-bottom: 10px;
+      }
+      #nav2>div{
+          display: flex;
+          justify-content: space-between;
+          
+      }
+     #nav2>img{
+      height: 100%;
+     }
+     #fir{
+      padding-top: 25px;
+     }
+     #thr{
+      padding-top: 25px;
+     }
+     #thr>svg{
+      padding-left: 50px;
+     }
+     #thr>a>svg{
+      padding-left: 50px;
+     }
+    #fir>div{
+      padding-right: 25px;
+    }
+    #nav3{
+      background-color: #302f2f;
+      height: 40px;
+      display: flex;
+          justify-content: space-between;
+          margin: auto;
+         
+        
+    }
+    #nav3>div{
+      width: 48%;
+      height: 40px;
+     color: white;
+     display: flex;
+          justify-content: space-between;
+          margin: auto;
+          font-size: 12px;
+        
+    }
+    #gift{
+      background-color: #EC407A;
+      padding-left: 30px;
+      padding-right: 10px;
+    }
+    #nav3>div>div{
+     padding-top: 14px;
+    }
+    #grey{
+        background-color: #EEEEEE;
+        width: 100%;
+        height: auto;
+     
+    }
+    #bot{
+  
+  width: 50%;
+  margin: auto;
+  height: auto;
+  margin-top: 50px;
+  display: flex;
+  margin-left: 470px;
+  
+}
+#frame{
+width: 30%;
+background-color: white;
+margin-top: 20px;
+text-align: center;
+padding-top: 35px;
+padding-left: 20px;
+padding-right: 20px;
+color: rgb(70, 69, 69);
+}
+#frame>img{
+  height: 20px;
+  width: 20px;
+}
+#frame>p{
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+#fri{
+width: 15%;
+margin-top: 30px;
+text-align: center;
+padding: 12px;
+}
+#fri>h3{
+  margin-bottom: 15px;
+}
+#fri>p{
+color: rgb(70, 69, 69);
+margin-bottom: 15px;
+}
+hr{
+margin-left: 40px;
+margin-bottom: 20px;
+}
+#ins{
+  width: 90%;
+  padding: 10px 10px;
+  text-align: center;
+  color: rgb(58, 56, 56);
+  background-color: rgb(247, 244, 244);
+  border: none;
+  margin-bottom: 30px;
+}
+#disc>li{
+  margin-right: 30px;
+}
+#sign{
+  width: 100%;
+  display: flex;
+  height: auto;
+  
+  margin: auto;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+#g1{
+  width: 10%;
+  height: 50px;
+}
+#g2{
+  width: 90%;
+  text-align: left;
+  color: rgb(104, 103, 103);
+}
+#ins2{
+  height: 20px;
+  width: 20px;
+  margin-top: 25px;
+  margin-right: 15px;
+  
+}
+#pri{
+  text-decoration: underline;
+}
+#button{
+  width: 95%;
+  background-color: #302f2f;
+  color: white;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  text-align: center;
+  font-size: 18px;
+  margin-bottom: 30px;
+  
+  border: none;
+}
+#bar{
+  width: 100%;
+  height: auto;
+  border: 1px solid white;
+  height: 60px;
+  margin-top: 20px;
+}
+#bars{
+  display: flex;
+ height: auto;
+  width: 58%;
+  justify-content: space-between;
+  margin: auto;
+}
+#bar1{
+  display: flex;
+  width: 40%;
+  
+  height: 60px;
+}
+#bar1>div{
+  margin: 10px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+#bar2{
+  width: 40%;
+ 
+  height: 60px;
+  display: flex;
+}
+#up{
+margin-top: 10px;
+margin-bottom: 10px;
+margin-left: 80px;
+margin-right: 10px;
+}
+#down{
+  margin: auto;
+}
+#last{
+  width: 100%;
+  height: 100px;
+  background-color: #302f2f;
+  text-align: center;
+  padding-top: 50px;
+}
+#last>p{
+  margin-bottom: 15px;
+}
+#contain{
+    width: 60%;
+    
+    margin: auto;
+    height: auto;
+}
+#cl1{
+    display: flex;
+    height: auto;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+#cl2{
+    
+    height: 500px;
+    width: 35%;
+    margin-left: 40px;
+    margin-right: 40px;
+    position: relative;
+    overflow: hidden;
+}
+#cl3{
+    
+    height: 500px;
+    width: 40%;
+    margin-left: 140px;
+}
+#cl1>button{
+background-color: white;
+border: none;
+}
+.slide{
+   width: 100%;
+   height: 100%;
+    position: absolute;
+}
+#box{
+    border: 1px solid grey;
+    width: 90%;
+    padding: 15px;
+    color: #575656;
+}
+#cart{
+    width: 97%;
+    background-color:#302f2f;
+    color: white;
+    padding: 15px;
+    margin-bottom: 10px;
+    border: none;
+}
+#cart:hover{
+    color: grey;
+}
+#box2{
+    width: 93%;
+    background-color: rgb(250, 250, 126);
+    padding: 10px;
+    text-align: center;
+}
+#nm1{
+  display: flex;
+padding-left: 20px;
+}
+#nm2{
+  width: 50%;
+  padding-left: 20px;
+}#nm3{
+  width:50%
+
+}
+#nm1 p{
+color: #575656;
+margin-bottom: 30px;
+}
+#nm1 h3{
+  margin-bottom: 10px;
+}
+#st1{
+  display: flex;
+padding-left: 20px;
+margin-bottom: 30px;
+}
+#st2{
+  width: 50%;
+  padding-left: 20px;
+}
+#st3{
+  width: 50%;
+}
+#st1 h3{
+  margin-bottom: 10px;
+}
+#st1 h4{
+  margin-bottom: 5px;
+}
+  #more,#may{
+display: flex;
+height: auto;
+
+width: 96%;
+margin: auto;
+margin-left: 45px;
+  }
+#more div,#may div{
+  width: 20%;
+  
+  margin: auto;
+}
+#may{
+  margin-bottom: 50px;
+}
+#more img,#may img{
+  height: 100%;
+  width: 100%;
+}
+#more>div>p,#more>div>h3,#more>div>h4,#may>div>p,#may>div>h3,#may>div>h4{
+  margin-bottom: 10px;
+}
+#more>div>p,#may>div>p{
+  color: #575656;
+}
+
+</style>
+<body>
+    <div id="fixed">
+        <div id="nav">
+          <div>
+              <div>
+                  <div id="hov"> <button>INDIA<svg xmlns="http://www.w3.org/2000/svg" height="13" viewBox="0 0 24 24" width="15"><path d="M0 0h24v24H0z" fill="none"></path><path d="M7 10l5 5 5-5z"></path></svg></button></div>
+                  <div id="hov"> <button>CUSTOMER CARE</button></div>
+                 
+             
+          </div>
+          <div id="sec">
+              <div id="hov"><button><svg xmlns="http://www.w3.org/2000/svg" height="13" viewBox="0 0 24 24" width="15"><path d="M0 0h24v24H0z" fill="none"></path><path d="M3 17.25V21h3.75L17.81 9.94l-3.75-3.75L3 17.25zM20.71 7.04c.39-.39.39-1.02 0-1.41l-2.34-2.34c-.39-.39-1.02-.39-1.41 0l-1.83 1.83 3.75 3.75 1.83-1.83z"></path></svg>REGISTER</button></div>
+              <div id="hov"> <button><svg xmlns="http://www.w3.org/2000/svg" height="13" viewBox="0 0 24 24" width="15"><path d="M0 0h24v24H0z" fill="none"></path><path d="M12 17c1.1 0 2-.9 2-2s-.9-2-2-2-2 .9-2 2 .9 2 2 2zm6-9h-1V6c0-2.76-2.24-5-5-5S7 3.24 7 6h1.9c0-1.71 1.39-3.1 3.1-3.1 1.71 0 3.1 1.39 3.1 3.1v2H6c-1.1 0-2 .9-2 2v10c0 1.1.9 2 2 2h12c1.1 0 2-.9 2-2V10c0-1.1-.9-2-2-2zm0 12H6V10h12v10z"></path></svg>LOGIN</button></div>
+              
+             
+          </div>
+          </div>
+         
+      </div>
+      <div id="navs">
+        <div id="nav2">
+          <div id="fir">
+              <div><h5>WOMEN</h5></div>
+              <div> <h5>MEN</h5></div>
+              <div>  <h5>KIDS</h5></div>
+              <div> <h5>/</h5></div>
+              <div> <h5>DESIGN+ART</h5></div>
+              
+          </div>
+          <div><img src="C:\Users\Neha\Downloads\YOOX.png" alt=""> </div>
+          <div id="thr">
+         <svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 0 24 24" width="24"><path d="M0 0h24v24H0z" fill="none"></path><path d="M15.5 14h-.79l-.28-.27C15.41 12.59 16 11.11 16 9.5 16 5.91 13.09 3 9.5 3S3 5.91 3 9.5 5.91 16 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"></path></svg>
+         <svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 0 24 24" width="24"><path d="M0 0h24v24H0z" fill="none"></path><path d="M16.5 3c-1.74 0-3.41.81-4.5 2.09C10.91 3.81 9.24 3 7.5 3 4.42 3 2 5.42 2 8.5c0 3.78 3.4 6.86 8.55 11.54L12 21.35l1.45-1.32C18.6 15.36 22 12.28 22 8.5 22 5.42 19.58 3 16.5 3zm-4.4 15.55l-.1.1-.1-.1C7.14 14.24 4 11.39 4 8.5 4 6.5 5.5 5 7.5 5c1.54 0 3.04.99 3.57 2.36h1.87C13.46 5.99 14.96 5 16.5 5c2 0 3.5 1.5 3.5 3.5 0 2.89-3.14 5.74-7.9 10.05z"></path></svg>
+         <a href="./cart.html"><svg xmlns="http://www.w3.org/2000/svg" enable-background="new 0 0 24 24" height="24" viewBox="0 0 24 24" width="24"><g><rect fill="none" height="24" width="24"></rect><path d="M18,6h-2c0-2.21-1.79-4-4-4S8,3.79,8,6H6C4.9,6,4,6.9,4,8v12c0,1.1,0.9,2,2,2h12c1.1,0,2-0.9,2-2V8C20,6.9,19.1,6,18,6z M10,10c0,0.55-0.45,1-1,1s-1-0.45-1-1V8h2V10z M12,4c1.1,0,2,0.9,2,2h-4C10,4.9,10.9,4,12,4z M16,10c0,0.55-0.45,1-1,1 s-1-0.45-1-1V8h2V10z"></path></g></svg></a>
+      </div>
+      </div>
+      </div>
+      
+      <div id="nav3">
+          <div>
+              <div>NEW ARRIVALS</div>
+              <div>DESIGNERS</div>
+              <div>CLOTHING</div>
+              <div>SHOES</div>
+              <div>ACCESSORIES &amp; BAGS</div>
+              <div>8 BY YOOX</div>
+              <div>YOOXGEN</div>
+              <div>COLLABORATIONS</div>
+              <div>BEST DEALS</div>
+              <div id="gift">GIFT GUIDE</div>
+          </div>
+      </div>
+      </div>
+      <div id="contain">
+        <div id="cl1">
+            <button onclick="goPrev()"><img style="width: 20px; height:20px;" src="C:\Users\Neha\Downloads\308957_arrow_previous_icon.png" alt=""></button>
+            <div id="cl2">
+                <img class="slide" src="https://www.yoox.com/images/items/14/14270715XR_10_f.jpg" alt="">
+                <img class="slide" src="https://www.yoox.com/images/items/14/14270715XR_10_r.jpg" alt="">
+                <img class="slide" src="https://www.yoox.com/images/items/14/14270715XR_10_d.jpg" alt="">
+                <img class="slide" src="https://www.yoox.com/images/items/14/14270715XR_10_a.jpg" alt="">
+            </div>
+            <button onclick="goNext()"><img style="width: 30px; height:30px;" src="C:\Users\Neha\Downloads\4781843_arrows_chevron_direction_left_move_icon.png" alt=""></button>
+            <div id="cl3">
+                <h3>MAJE</h3>
+                <p style="margin-top: 15px;margin-bottom:30px;">Cardigans</p>
+                <p style="color:#575656;margin-bottom: 10px;"><strike>US$ 337,00</strike> 35% OFF</p>
+                <h3 style="margin-bottom: 25px;">US$ 218,00</h3>
+                <div id="box">
+                    <p><img style="width: 20px; height:20px;"src="C:\Users\Neha\Downloads\430120_tag_icon.png" alt="">The size indicated on the label is <b>44(IT)</b> </p>
+                    <p><img style="width: 20px; height:20px;"src="C:\Users\Neha\Downloads\172477_question_help_icon.png" alt="">Need more help? View the <b><u> Size Guide</u></b> </p>
+
+                </div>
+                <b> <button style="width:100%; background-color: white;border: none;text-align: center;padding: 10px;"><img style="width: 20px; margin-top: 10px; margin-right: 10px; height:10px;"src="C:\Users\Neha\Desktop\Screenshot 2022-11-11 145619.png" alt="">FIND YOUR SIZE <img style="width: 20px; height:10px;" src="C:\Users\Neha\Downloads\4781843_arrows_chevron_direction_left_move_icon.png" alt=""></button>
+                    <button id="cart">
+                        <p style="color: white;"id="set"></p> ADD TO SHOPPING BAG</button>
+                    <button style=" margin-bottom: 10px;width: 97%;background-color:rgb(235, 234, 234);padding:15px;border:none;">ADD TO DREAM BOX</button></b>
+                <div id="box2">
+                    <p>This item is excluded from all promotional offers</p>
+                </div>
+            </div>
+        </div>
+        <hr>
+<div id="nm1">
+  <div id="nm2">
+    <h3>COMPOSITION</h3>
+    <P>47% Polyamide, 27% Cotton, 25% Wool, 1% Elastane</P>
+    <h3>MEASUREMENTS <img style="width:20px;height:15px" src="C:\Users\Neha\Desktop\Screenshot 2022-11-11 163522.png" alt=""></h3>
+    <p>Length 52cm</p>
+  </div>
+  <div id="nm3">
+    <h3>DETAILS</h3>
+    <P>lace, knitted, lightweight knit, no appliques, solid color, classic neckline, long sleeves, no pockets</P>
+    <p>Product code: 14270715XR</p>
+  </div>
+</div>
+<hr>
+<div id="st1">
+<div id="st2">
+  <h3><img  style="width:20px;height:20px;margin-right: 5px;"src="C:\Users\Neha\Desktop\Screenshot 2022-11-11 180254.png" alt="">SHIPPING</h3>
+  <h4 style="margin-left: 25px;">Express US$ 26,00</h4>
+  <p style="color: #575656;margin-left: 25px;margin-bottom: 30px;">3-6 business days</p>
+  <p style="margin-left: 25px;"> <u>VIEW ALL OPTIONS</u> </p>
+</div>
+<div id="st3">
+  <h3><img  style="width:20px;height:20px;margin-right: 5px;"src="C:\Users\Neha\Downloads\8200191_leftarrowl_left_arrow_direction_arrows_icon.png" alt="">RETURNS</h3>
+<p style="color: #575656;margin-left: 25px;margin-bottom: 30px;">Fast and easy returns</p>
+<h4 style="margin-left: 25px;">Returns</h4>
+<p style="color: #575656;margin-left: 25px;margin-bottom: 30px;">within 30 days</p>
+<p style="margin-left: 25px;"><u>VISIT OUR CUSTOMER CARE AREA</u></p>
+<P style="color: #575656;margin-left: 25px;margin-bottom: 10px;">for more information on returns, exchange and refunds</P>
+</div>
+</div>
+
+<div style="text-align: center;">
+  <h3 style="margin-bottom: 50px;">MORE BY THIS DESIGNER</h3>
+  <div id="more">
+
+  <div>
+    <img src="https://www.yoox.com/images/items/15/15173305OS_14_f.jpg?impolicy=crop&width=306&height=390" alt="">
+    <h3>MAJE</h3>
+    <p>Short dress</p>
+    <p><strike>US$ 461,00</strike>52% OFF</p>
+    <h4>US$ 221,00</h4>
+    <p>42 44 46</p>
+  </div>
+  <div>
+    <img src="https://www.yoox.com/images/items/15/15172777MT_14_f.jpg?impolicy=crop&width=306&height=390" alt="">
+    <h3 >MAJE</h3>
+    <p >Midi dress</p>
+    <p ><strike>US$ 410,00</strike>64% OFF</p>
+    <h4 >US$ 148,00</h4>
+    <p >38 40</p>
+  </div>
+  <div>
+    <img src="https://www.yoox.com/images/items/16/16053827SF_14_f.jpg?impolicy=crop&width=306&height=390" alt="">
+    <h3>MAJE</h3>
+    <p>Shell jacket</p>
+    <p><strike>US$ 569,00</strike>57% OFF</p>
+    <h4>US$ 244,00</h4>
+    <p>44</p>
+  </div>
+  <div>
+    <img src="https://www.yoox.com/images/items/16/16054366MP_14_f.jpg?impolicy=crop&width=306&height=390" alt="">
+    <h3>MAJE</h3>
+    <p>Coat</p>
+    <p><strike>US$ 569,00</strike>51% OFF</p>
+    <h4>US$ 275,00</h4>
+    <p>44</p>
+  </div>
+  <div>
+    <img src="https://www.yoox.com/images/items/15/15173077VJ_14_f.jpg?impolicy=crop&width=306&height=390" alt="">
+    <h3>MAJE</h3>
+    <p>Long dress</p>
+    <p><strike>US$ 410,00</strike>81% OFF</p>
+    <h4>US$ 79,00</h4>
+    <p>38 40 42 44</p>
+  </div>
+  </div>
+  
+  <h3 style="margin-bottom: 50px;margin-top: 50px;">YOU MAY ALSO LIKE</h3>
+  <div id="may">
+  <div>
+    <img src="https://www.yoox.com/images/items/14/14203187HQ_14_f.jpg?impolicy=crop&width=306&height=390" alt="">
+    <h3>CARACTERE</h3>
+    <p>Cardigan</p>
+    <p><strike>US$ 162,00</strike>82% OFF</p>
+    <h4>US$ 29,00</h4>
+    <p>L</p>
+  </div>
+  <div>
+    <img src="https://www.yoox.com/images/items/14/14217260MQ_14_f.jpg?impolicy=crop&width=306&height=390" alt="">
+    <h3>ALPHA STUDIO</h3>
+    <p>Cardigan</p>
+    <p><strike>US$ 254,00</strike>73% OFF</p>
+    <h4>US$ 68,00</h4>
+    <p>38 40 42 44 46</p>
+  </div>
+  <div>
+    <img src="https://www.yoox.com/images/items/14/14218021EW_14_f.jpg?impolicy=crop&width=306&height=390" alt="">
+    <h3>TORY BURCH</h3>
+    <p>Cardigan</p>
+    <p><strike>US$ 666,00</strike>68% OFF</p>
+    <h4>US$ 212,00</h4>
+    <p>XS S M L XL</p>
+  </div>
+  <div>
+    <img src="https://www.yoox.com/images/items/14/14206630GX_14_f.jpg?impolicy=crop&width=306&height=390" alt="">
+    <h3>SOALLURE</h3>
+    <p>Cardigan</p>
+    <p><strike>US$ 297,00</strike>72% OFF</p>
+    <h4>US$ 82,00</h4>
+    <p>S M </p>
+  </div>
+  <div>
+    <img src="https://www.yoox.com/images/items/14/14181996QB_14_f.jpg?impolicy=crop&width=306&height=390" alt="">
+    <h3>GRAN SASSO</h3>
+    <p>Cardigan</p>
+    <p><strike>US$ 301,00</strike>81% OFF</p>
+    <h4>US$ 56,00</h4>
+    <p> 40 42</p>
+  </div>
+  
+  
+  </div>
+</div>
+
+<hr>
+<div style="text-align: center;font-size: 17px;padding-right: 10px;margin-top: 50px;">See other <b>MAJE</b>  items or other <b>Cardigans</b> </div>
+      </div>
+
+      <div id="grey">
+        <div id="bot">
+            <div id="fri">
+              <h3>NEW TO YOOX</h3>
+              <hr width="35%" color="black" size="3px" >
+              <p>Shopping guide</p>
+              <p>iphone/ipad/Android</p>
+              <p>Browse all Designers</p>
+              <p>Browse all Categories</p>
+            </div>
+            <div id="fri">
+              <h3>HELP</h3>
+              <hr width="35%" color="black" size="3px"  margin="auto" >
+              <p>Shipping times & costs</p>
+              <p>Payments and web security</p>
+              <p>Product quality</p>
+              <p>Track your order</p>
+              <p>Returns & refunds</p>
+              <p>FAQs</p>
+              <p>Size Guide</p>
+            </div>
+            <div id="frame">
+              <img src="C:\Users\Neha\Downloads\envelope.png" alt="">
+              <h3>YOOX NEWS</h3>
+              <p>Sign up for the newsletter <br> and discover the latest arrivals and <br> promotions</p>
+            <input type="text" id="ins" placeholder="INSERT YOUR E-MAIL ADDRESS">
+            <ul id="disc">
+              <img height="20px"  width="20px" src="C:\Users\Neha\Downloads\circle-small.png" alt=""><li style="display:inline" > Women</li>
+              <img height="20px"  width="20px" src="C:\Users\Neha\Downloads\circle-small.png" alt=""><li style="display:inline" > Man</li>
+            </ul>
+            <div id="sign">
+              <div id="g1">
+                <input type="checkbox" id="ins2">
+              </div>
+              <div id="g2">
+                <p id="left" style="display:inline">I consent to receive YOOX newsletter via email.For further information, please consult the </p>
+                <p id="pri">Privacy Policy</p>
+              </div>
+            </div>
+            <button id="button">SIGN UP </button>
+            </div>
+            <div id="fri">
+              <h3>MYOOX</h3>
+              <hr width="35%" color="black" size="3px">
+              <p>Login</p>
+              <p>My Orders</p>
+              <p>My Details</p>
+              <p>Dream Box</p>
+              <p>Premiere</p>
+            </div>
+            <div id="fri">
+              <h3>ABOUT US</h3>
+              <hr width="35%" color="black" size="3px">
+              <p>Company Info</p>
+              <p>Press</p>
+              <p>Affiliation</p>
+              <p>Careers</p>
+            </div>
+            </div>
+            <div id="bar">
+              <div id="bars">
+                <div id="bar1" >
+                  
+                  <div><p>CONNECT WITH US</p></div>
+                  <div>
+                    <img width="20px" height="20px"src="C:\Users\Neha\Downloads\216078_facebook_social_icon.png" alt="">
+                  </div>
+                  <div><img width="20px" height="20px" src="C:\Users\Neha\Downloads\104501_twitter_bird_icon.png" alt=""></div>
+                  <div><img width="20px" height="20px" src="C:\Users\Neha\Downloads\1161953_instagram_icon.png"alt=""></div>
+                  <div><img width="20px" height="20px" src="C:\Users\Neha\Downloads\8666536_youtube_icon.png" alt=""></div>
+                  <div><img width="20px" height="20px" src="C:\Users\Neha\Downloads\104469_pinterest_icon.png" alt=""></div>
+                  <div><img width="20px" height="20px" src="C:\Users\Neha\Downloads\8666453_tiktok_icon.png" alt=""></div>
+                </div>
+                <div id="bar2">
+                  <div id="up"> <img width="40px" height="40px"  src="C:\Users\Neha\Downloads\2135922_mobile_mobile shopping_tablet_icon.png" alt=""></div>
+                  <div id="down"><p >DOWNLOAD THE APP FOR iOS / ANDROID</p></div>
+                 
+                  
+                </div>
+              </div>
+              
+            </div>
+            <div id="last">
+              <p style="color: white;">POWEREDBY YOOX NET-A-PORTER GROPU-COPYRIGHT © 2000-2022 YOOX NET-A-PORTER GROUP S.P.A-ALL RIGHTS RESERVED-SIAE LICENSE # 401/1/526</p>
+              <P style="color: grey;">LEGAL AREA    /    PRIVACY POLICY</P>
+            </div>
+      </div>
+</body>
+</html>
+<script>
+    const slides = document.querySelectorAll(".slide");
+    var counter=0;
+    slides.forEach((slide,index)=>{
+        slide.style.left = `${index*100}%`
+    })
+    const goPrev =()=>{
+        counter--;
+        slideImage()
+    }
+    const goNext =()=>{
+        counter++;
+        slideImage()
+    }
+    const slideImage =()=>{
+        slides.forEach((slide) =>{
+            slide.style.transform =`translateX(-${counter*100}%)`
+        })
+    }
+     document.querySelector("#cart").addEventListener("click",function(){
+        setInterval(() => {
+            
+       
+            document.querySelector("#set").innerText = "Item added to Shopping bag";
+        }, 1000);
+       
+     })
+    
+    
+    
+    
+
+</script>

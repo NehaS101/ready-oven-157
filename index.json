@@ -1,0 +1,69 @@
+
+{
+     "data":[
+        {"img":"https://www.yoox.com/images/items/14/14270715XR_14_f.jpg?impolicy=crop&width=306&height=390",
+        "tittle":"MAJE",
+        "cat":"Crdigan",
+        "id":"1",
+        "price":"US$ 218,00"
+        
+        },
+        {
+            "img": "https://www.yoox.com/images/items/50/50291958CE_14_f.jpg?impolicy=crop&width=306&height=390",
+            "tittle":"MM6 MAISON MARGIELA" ,
+            "cat": "Ring",
+            "id":"2",
+            "price":"US$ 121,00"
+        },
+        {
+            "img": "https://www.yoox.com/images/items/50/50291961LR_14_f.jpg?impolicy=crop&width=306&height=390",
+            "tittle":"MM6 MAISON MARGIELA" ,
+            "cat": "Bracelet",
+            "id":"3",
+            "price":"US$ 121,00"
+        },
+        {
+            "img": "https://www.yoox.com/images/items/13/13908422SI_14_f.jpg?impolicy=crop&width=306&height=390",
+            "tittle":"RE/DONE WITH LEVIS's" ,
+            "cat": "Denim pants",
+            "id":"4",
+            "price":"US$ 364,00"
+        },
+        {
+            "img": "https://www.yoox.com/images/items/48/48291010FA_14_f.jpg?impolicy=crop&width=306&height=390",
+            "tittle":"HANRO" ,
+            "cat": "Sleepwear",
+            "id":"5",
+            "price":"US$ 198,00"
+        },
+        {
+            "img": "https://www.yoox.com/images/items/50/50290936UM_14_f.jpg?impolicy=crop&width=306&height=390",
+            "tittle":"VIVIENNE WESTWOOD" ,
+            "cat": "Earrings",
+            "id":"6",
+            "price":"US$ 149,00"
+        },
+        {
+            "img": "https://www.yoox.com/images/items/48/48292048TA_14_f.jpg?impolicy=crop&width=306&height=390",
+            "tittle":"BONNE MAISON" ,
+            "cat": "Sock & tights",
+            "id":"7",
+            "price":"US$ 30,00"
+        },
+        {
+            "img": "https://www.yoox.com/images/items/49/49806254FP_14_f.jpg?impolicy=crop&width=306&height=390",
+            "tittle":"MM6 MAISON MARGIELA" ,
+            "cat": "Blazer",
+            "id":"8",
+            "price":"US$ 444,00"
+        },
+        {
+            "img": "https://www.yoox.com/images/items/17/17397991BT_14_f.jpg?impolicy=crop&width=306&height=390",
+            "tittle":"FURLA" ,
+            "cat": "Loafers",
+            "id":"9",
+            "price":"US$ 418,00"
+        }
+        ]
+}
+ 
